@@ -18,7 +18,7 @@ selected_year = st.selectbox('Select Indicator', sorted(years))
 
 # Dropdown menu for variable selection
 variables = ['Voice and Accountability', 'Political Stability', 'Regulatory Quality', 'Rule of Law', 'Effectiveness', 'Control of Corruption', 'Internet Penetration', 'Women in Parliament', 'Female to Male Labor Ratio']
-selected_variable = st.selectbox('Select Variable', variables)
+selected_variable = st.selectbox('Select Indicator', variables)
 
 # Filter data for the selected year and country
 filtered_data = data[(data['Year'] == selected_year)]
