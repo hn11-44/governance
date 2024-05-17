@@ -13,7 +13,7 @@ st.title('Global Governance Dashboard')
 
 # Dropdown menu for year selection
 years = data['Year'].unique()
-selected_year = st.selectbox('Select Indicator', sorted(years))
+selected_year = st.selectbox('Select Year', sorted(years))
 
 
 # Dropdown menu for variable selection
