@@ -1,4 +1,3 @@
 streamlit
 pandas
-plotly
-plotly.express
+from pyplot import pyplot.express
